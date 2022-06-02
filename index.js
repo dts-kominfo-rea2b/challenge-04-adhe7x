@@ -15,8 +15,9 @@ const createDate = (dates, single) => {
         arrayDates.push(Date.parse(dates[x])/1000);
         arrayDates[x].toString();
     };
-
-    if(single == null) {
+    
+    if(single == null) {    
+        arrayDates.sort();
         return arrayDates.join("-");
     };
   
