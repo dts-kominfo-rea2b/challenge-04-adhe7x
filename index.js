@@ -22,7 +22,7 @@ const createDate = (dates, single) => {
     };
   
     if(isNaN(single) == false){
-        return arrayDates[single];
+        return arrayDates[single].toString();
     };
 };
 
